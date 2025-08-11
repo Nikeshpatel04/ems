@@ -37,7 +37,9 @@ It allows **Admins** to create and assign tasks, and **Employees** to view, upda
 <img width="895" height="860" alt="Image" src="https://github.com/user-attachments/assets/8127eb61-fcdd-46bb-9d06-f819356b0aa2" />)
 
 ### 💼 Employee Dashboard
-![Employee Dashboard](<img width="937" height="753" alt="Image" src="https://github.com/user-attachments/assets/06eca084-3870-48a7-862c-c235033634e6" />)
+![Employee View Screenshot](https://github.com/user-attachments/assets/06eca084-3870-48a7-862c-c235033634e6)
+
+
 
 ---
 
@@ -84,7 +86,7 @@ vbnet
 
 Email: admin@me.com
 Password: 123
-Employee:
+
 
 makefile
 
