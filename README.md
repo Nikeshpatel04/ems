@@ -30,7 +30,7 @@ It allows **Admins** to create and assign tasks, and **Employees** to view, upda
 ## 📸 Screenshots
 
 ### 🔑 Login Page
-- [Login Page](https://github.com/Nikeshpatel04/ems/issues/2#issue-3308965620)
+!Login Page](https://github.com/user-attachments/assets/140ad10f-651a-46a9-bde0-012828a68f09)
 
 
 ### 🖥 Admin Dashboard
