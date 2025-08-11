@@ -1,91 +1,105 @@
-Employee Management System (EMS) – React
-A modern Employee Management System built with React and Tailwind CSS that allows adding, editing, deleting, and searching employee records.
+ 📋 Employee Management System (EMS)
 
-🚀 Features
-Add Employee – Create new employee records with details like name, email, and role.
+A web-based Employee Management System built using **React.js**, **Tailwind CSS**, and **LocalStorage**.  
+It allows **Admins** to create and assign tasks, and **Employees** to view, update, and track their work progress.
 
-Edit Employee – Update employee details instantly.
+---
 
-Delete Employee – Remove employees from the system.
+## 🚀 Features
 
-Search & Filter – Quickly find employees using search functionality.
+### 👩‍💼 Admin
+- Create new tasks
+- Assign tasks to employees
+- View all tasks and their status
 
-Responsive UI – Mobile-friendly design using Tailwind CSS.
+### 👨‍💻 Employee
+- View assigned tasks
+- Update task status (New, Active, Completed, Failed)
+- Track personal task statistics
 
-🛠 Tech Stack
-Frontend: React.js, Tailwind CSS
+---
 
-State Management: React Hooks (useState, useEffect)
+## 🛠 Tech Stack
+- **Frontend:** React.js, Tailwind CSS
+- **State Management:** React Context API
+- **Data Storage:** LocalStorage
+- **Authentication:** Role-based (Admin / Employee)
 
-Icons: React Icons
+---
 
-Package Manager: npm
+## 📸 Screenshots
 
-📂 Project Structure
-pgsql
-Copy
-Edit
-EMS_REACT/
-├── public/
-│   ├── index.html
-├── src/
-│   ├── components/
-│   │   ├── EmployeeForm.jsx
-│   │   ├── EmployeeList.jsx
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   ├── App.jsx
-│   ├── index.js
-├── package.json
-└── tailwind.config.js
+### 🔑 Login Page
+![Login Screenshot](screenshots/login.png)
 
+### 🖥 Admin Dashboard
+![Admin Dashboard](
+<img width="895" height="860" alt="Image" src="https://github.com/user-attachments/assets/8127eb61-fcdd-46bb-9d06-f819356b0aa2" />)
 
-⚙️ Installation & Setup
-Clone the Repository
+### 💼 Employee Dashboard
+![Employee Dashboard](<img width="937" height="753" alt="Image" src="https://github.com/user-attachments/assets/06eca084-3870-48a7-862c-c235033634e6" />)
+
+---
+
+## 📂 Project Structure
+📦 employee-management-system
+├── 📂 public
+├── 📂 src
+│ ├── 📂 components
+│ ├── 📂 context
+│ ├── 📂 utils
+│ ├── App.jsx
+│ └── index.jsx
+└── package.json
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/employee-management-system.git
+Navigate to the project folder
 
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/EMS_REACT.git
-Navigate to Project
-
-bash
-Copy
-Edit
-cd EMS_REACT
-Install Dependencies
+cd employee-management-system
+Install dependencies
 
 bash
 Copy
 Edit
 npm install
-Run Development Server
+Run the development server
 
 bash
 Copy
 Edit
-npm start
-Build for Production
+npm run dev
+🔐 Default Credentials
+Admin:
 
-bash
-Copy
-Edit
-npm run build
-🎯 Usage
-Open the app in your browser at http://localhost:3000
+vbnet
 
-Add, edit, delete, or search employees in real time.
+Email: admin@me.com
+Password: 123
+Employee:
 
-📸 Screenshots
-()
+makefile
+
+Email: employee@example.com
+Password: 123
+💡 Future Improvements
+Connect to a real database (MongoDB, MySQL)
+
+Add JWT authentication
+
+Create a user registration system
+
+Implement file upload for tasks
 
 📜 License
-This project is licensed under the MIT License – feel free to use and modify it.
+This project is licensed under the MIT License.
 
-
-
-
-
-
-
-
+🖤 Developed with passion by Nikesh Patel
