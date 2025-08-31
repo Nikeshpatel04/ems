@@ -61,7 +61,7 @@ employee-management-system/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/employee-management-system.git
+   git clone https://github.com/Nikeshpatel04/ems.git
 Navigate to the project folder
 
 bash
